@@ -1,22 +1,21 @@
-# DecodeLabs Data Science Challenges - Complete Portfolio
+# DecodeLabs Data Science Challenges - Production Portfolio
 
-This repository serves as a centralized portfolio containing end-to-end production-grade implementations for the DecodeLabs Data Science challenges.
+This repository contains full production-grade implementations for all the fundamental Data Science tracks powered by DecodeLabs.
 
-## 📁 Repository Structure & Modules
+## 📁 Portfolio Structure & Completed Modules
 
-### 1. Unsupervised Machine Learning Pipeline (`unsupervised_task.py`)
-* **Objective:** Customer segmentation using multi-dimensional behavioral datasets.
-* **Techniques:** Standard Feature Scaling, Principal Component Analysis (PCA) for dimensionality reduction, and K-Means Clustering optimized via WCSS tracking.
+### 1. Supervised Learning Fraud Pipeline (`supervised_task.py`) - Project 2
+* **Objective:** Mitigating structural class imbalance to detect fraudulent transactions.
+* **Techniques:** SMOTE interpolation algorithm on training splits, Random Forest training, and strict evaluation via Precision, Recall, and ROC-AUC.
 
-### 2. Comprehensive Exploratory Data Analysis (`eda_task.py`)
-* **Objective:** Advanced data wrangling, preprocessing, and automated statistical filtering.
-* **Techniques:** Dynamic Interquartile Range (IQR) outlier eradication and dynamic matrix cross-correlation.
+### 2. Unsupervised Learning Segmentation (`unsupervised_task.py`) - Project 3
+* **Objective:** Architectural customer behavior partitioning on retail data.
+* **Techniques:** StandardScaler normalizations, Principal Component Analysis (PCA), and K-Means Clustering driven by dynamic WCSS tracking.
 
-### 3. Structural Natural Language Processing Engine (`nlp_task.py`)
-* **Objective:** Lexical text pipeline processing for semantic extraction.
-* **Techniques:** Tokenization, custom negation-aware stopword mapping, POS-tagged Lemmatization, and TF-IDF feature space formulation.
+### 3. Comprehensive Exploratory Data Analysis (`eda_task.py`) - Project 1
+* **Objective:** Structural preprocessing and data refinement pipelines.
+* **Techniques:** Vectorized Interquartile Range (IQR) anomaly deletion and cross-correlation metric matrices.
 
-## 🚀 How to Execute
-Run any targeted module standalone using standard Python command execution:
-```bash
-python unsupervised_task.py
+### 4. Machine Linguistics NLP Engine (`nlp_task.py`) - Project 4
+* **Objective:** Morphological text processing and vectorized feature mapping.
+* **Techniques:** POS-tagged Lemmatization, negation-preserving stopword filtration, and high-dimensional TF-IDF transformations.
