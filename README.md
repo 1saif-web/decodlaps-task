@@ -1,18 +1,22 @@
-# Advanced Exploratory Data Analysis (EDA) Pipeline - Phase 3
+# DecodeLabs Data Science Challenges - Complete Portfolio
 
-An enterprise-grade data engineering and exploratory analysis pipeline designed to process real estate features, clean anomalous data, and extract statistical correlations.
+This repository serves as a centralized portfolio containing end-to-end production-grade implementations for the DecodeLabs Data Science challenges.
 
-## 📊 Pipeline Architecture
-1. **Data Simulation Engine:** Generates structural records with stochastic noise, targeted missing features, and multi-variable outliers.
-2. **Robust Data Cleansing:** Implements statistical imputation (Median-based tracking) for null distributions.
-3. **Advanced Outlier Filtering:** Automates the Interquartile Range (IQR) method dynamically across feature blocks.
-4. **Feature Correlation Matrix:** Computes Pearson correlation coefficients to isolate highly correlated target predictors.
+## 📁 Repository Structure & Modules
 
-## 🛠️ Key Libraries Used
-* **Pandas:** For high-performance matrix scaling and structural grouping.
-* **NumPy:** For vectorized execution of statistical bounds and deterministic random generation.
+### 1. Unsupervised Machine Learning Pipeline (`unsupervised_task.py`)
+* **Objective:** Customer segmentation using multi-dimensional behavioral datasets.
+* **Techniques:** Standard Feature Scaling, Principal Component Analysis (PCA) for dimensionality reduction, and K-Means Clustering optimized via WCSS tracking.
 
-## 🚀 Execution & Performance Verification
-To benchmark the analysis pipeline locally, run:
+### 2. Comprehensive Exploratory Data Analysis (`eda_task.py`)
+* **Objective:** Advanced data wrangling, preprocessing, and automated statistical filtering.
+* **Techniques:** Dynamic Interquartile Range (IQR) outlier eradication and dynamic matrix cross-correlation.
+
+### 3. Structural Natural Language Processing Engine (`nlp_task.py`)
+* **Objective:** Lexical text pipeline processing for semantic extraction.
+* **Techniques:** Tokenization, custom negation-aware stopword mapping, POS-tagged Lemmatization, and TF-IDF feature space formulation.
+
+## 🚀 How to Execute
+Run any targeted module standalone using standard Python command execution:
 ```bash
-python main.py
+python unsupervised_task.py
